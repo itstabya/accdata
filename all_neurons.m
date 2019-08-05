@@ -21,8 +21,8 @@ for k = 1:180
     four_array = loop_across(neural_act_mat, t4, sopt, k);
     
     %% choices 
-    prev_right_array = loop_across(neural_act_mat, prt, bopt, k);
-    prev_wrong_array = loop_across(neural_act_mat, pwt, bopt, k);
+    prev_right_array = loop_across(neural_act_mat, prt, sopt, k);
+    prev_wrong_array = loop_across(neural_act_mat, pwt, sopt, k);
     reward_array = loop_across(neural_act_mat, rt, ropt, k);
     correct_array = loop_across(neural_act_mat, ct, sopt, k);
     incorrect_array = loop_across(neural_act_mat, wt, sopt, k);

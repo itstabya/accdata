@@ -34,13 +34,13 @@ for t = 1:length(neural_act_mat) %for each trial
            if any(rewardsCell{t})
                ct = [ct, t];
                rt = [rt, t];
-               if t ~= 173;
-                   prt = [prt, t];
+               if t + 1 ~= 173;
+                   prt = [prt, t + 1];
                end
            else
                wt = [wt, t];
-               if t ~= 173;
-                   pwt = [pwt, t];
+               if t + 1 ~= 173;
+                   pwt = [pwt, t + 1];
                end
            end
            
@@ -71,6 +71,7 @@ for i = 1:length(ropt)
 end
 
 ropt = cell2mat(ropt);
+prt(end) = [];
 
         
     

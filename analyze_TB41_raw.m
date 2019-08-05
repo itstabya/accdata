@@ -1,5 +1,5 @@
-options.f_folder_name = '/Users/tanyayang/Desktop/urop (summer19)/code/encoding-model';
-options.b_file_name = '/Users/tanyayang/Desktop/urop (summer19)/code/encoding-model/behavior_file_TB41.mat';
+options.f_folder_name = '/Users/tanyayang/Desktop/urop (summer19)/code/accdata';
+options.b_file_name = '/Users/tanyayang/Desktop/urop (summer19)/code/accdata/behavior_file_TB41.mat';
 
 options.neuropil = 1;
 options.neuropil_subt = 1;
